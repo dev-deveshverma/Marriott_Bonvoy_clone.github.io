@@ -220,7 +220,7 @@ img{
         </div>
         
        <div><input type="checkbox" id="Make my prefferd card"><label for="Make my prefferd card">Make my prefferd card</label></div> 
-        <div id="proceeddiv" ><button id="proceed" onclick="otp()">Proceed to Pay</button> <h4 id="proceedpay"></h4></div>
+        <div id="proceeddiv" ><button id="proceed" onclick="loggedIn()">Proceed to Pay</button> <h4 id="proceedpay"></h4></div>
         <h1>Hotel Cancellation Policy</h1>
         <p id="reserve">About reservation:</p>
         <p id="info">You may cancel your reservation for no charge before 11:59 PM local hotel time on 1 day[s] before arrival. Please note that we will assess a fee if you must cancel after this deadline</p>
@@ -233,6 +233,15 @@ img{
 </body>
 </html>
 <script>
+      var login=true;    
+loggedIn=(login)=>{
+if(login==true){
+    otp();
+}
+else{
+    alert("Please login to continue");
+}
+}
 function otp(){
   setTimeout(()=>{
       window.location.href="otp.html";
