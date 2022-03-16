@@ -1,3 +1,12 @@
+ #  Marriott Bonvoy
+
+<p align="center">
+<img src="https://i.ibb.co/87FXsHL/mywebsite.png" alt="" width="450px"/>
+</p>
+
+##  Our task was to implement our HTML, CSS, Advanced JavaScript, Node.js, Express, MongoDB knowledge which we had learned at Masai. We used this skillset to build a static copy of Marriott Bonvoy along with the responsiveness of the page for different screen sizes and some user interactivity with Advanced JS.
+
+
 # Contributors :man_technologist::woman_technologist:
 
 <div>
