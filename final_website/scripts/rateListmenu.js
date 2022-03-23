@@ -102,7 +102,7 @@ if(no_of_adult =="" || no_of_chaild =="" || no_of_day=="" || no_of_room==""){
 
     localStorage.setItem("master_checkout",JSON.stringify(master_checkout))
 
-    window.location.href="/nikhilproject/payment.html"
+    window.location.href="/Payment/payment.html"
     // this part for nikhil page
 }
 
@@ -140,7 +140,7 @@ alert("please fill all area")
 
 localStorage.setItem("master_checkout",JSON.stringify(master_checkout))
 
-window.location.href="/nikhilproject/payment.html"
+window.location.href="/Payment/payment.html"
 
  // this part for nikhil page
 }
