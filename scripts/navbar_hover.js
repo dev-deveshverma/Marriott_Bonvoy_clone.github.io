@@ -115,7 +115,7 @@ function clickOn2(){
 
 
 function movevacationpage(){
-    window.location.href="Vacation.html"
+    window.location.href="../vacation_page/Vacation.html"
 }
 
 
