@@ -37,7 +37,7 @@ import appendata from '/scripts/appendfunction.js'
 async function exe() {
   document.querySelector("#waiting").style.display="block";
   try {
-    let response=await fetch(`https://blooming-brook-61650.herokuapp.com/findhotels/${dest}`)
+    let response=await fetch(`https://agoda-clone.cyclic.app/findhotels/${dest}`)
    let result = await response.json(); // Now this will wait till it finished
     console.log(result);
 
